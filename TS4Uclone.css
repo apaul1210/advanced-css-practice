@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar starts here  */
+.navbar{
+    background-color: green;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;   
+}
+
+
+.navigation-list{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.btn{
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 320px) and (max-width: 670px) {
+    .nav-item{
+        flex-direction: column;
+    }
+    .banner-content{
+        flex-direction: column;
+    }
+    
+}
+/* navbar ends here  */
+
+/* banner section starts here  */
+.banner-section{
+    background-color: #023047;
+}
+
+.banner-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-title{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.banner-development{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    color: white;
+}
+
+.half-content{
+    width: 50%;
+}
+
+.development-block{
+   padding: 50px;
+}
+
+.number{
+    color: greenyellow;
+}
+
+
+/* banner section ends here  */
+
+
+/* Box sections starts here  */
+.box-section{
+    background-color: whitesmoke;
+}
+.box-title h1{
+    padding: 25px;
+    text-align: center;
+    font-weight: bolder; 
+    font-size: 25px;
+}
+
+.box-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 20px;
+  
+}
+
+.box-content{
+    text-align: center;
+    border: solid white 3px;
+    box-shadow: 5px 5px white;
+    padding: 15px 5px;
+}
+
+
+
+/* Box sections ends here  */
+/* concerns: the SME box is not working. why? */
+
+/* green banner starts here  */
+.green-section{
+    background-color: green;
+}
+
+.green-content{
+    display: flex;
+    align-items: center;
+}
+
+.half-width{
+    width: 50%;
+    align-items: center;
+}
+
+.half-width img{
+    margin-left: 300px;
+    padding: 30px;
+}
+
+.production-content{
+    padding: 20px;
+    color: white;
+}
+
+.green-title{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.green-btn{
+    margin-bottom: 5px;
+}
+/* green banner ends here  */
+
+/* product section starts here  */
+.product-title{
+  /* font-weight: bold; this is not working  */
+  text-align: center;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.product-layout{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.product-box{
+    text-align: center;
+    border: 3px whitesmoke solid;
+    box-shadow: 7px 7px whitesmoke;
+}
+/* product section ends here  */
+
+
+
+.footer-section{
+    background-color: black;
+}
+
+.footer-content{
+    color: white;
+    padding: 10px;
+}
